@@ -1,0 +1,11 @@
+#redis配置
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    username: guest
+    password: guest
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+

@@ -1,0 +1,9 @@
+spring:
+  redis:
+    database:   1     #确定使用库
+    host: 127.0.0.1   #redis服务地址
+    port: 6379      #redis 端口号
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 127.0.0.1:9300

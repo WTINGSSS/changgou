@@ -1,0 +1,53 @@
+{
+  "groups": [
+    {
+      "name": "sc.filter",
+      "type": "com.czxy.config.FilterProperties",
+      "sourceType": "com.czxy.config.FilterProperties"
+    },
+    {
+      "name": "sc.jwt",
+      "type": "com.czxy.config.JwtProperties",
+      "sourceType": "com.czxy.config.JwtProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "sc.filter.allow-paths",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.czxy.config.FilterProperties"
+    },
+    {
+      "name": "sc.jwt.expire",
+      "type": "java.lang.Integer",
+      "sourceType": "com.czxy.config.JwtProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "sc.jwt.pri-key-path",
+      "type": "java.lang.String",
+      "sourceType": "com.czxy.config.JwtProperties"
+    },
+    {
+      "name": "sc.jwt.private-key",
+      "type": "java.security.PrivateKey",
+      "sourceType": "com.czxy.config.JwtProperties"
+    },
+    {
+      "name": "sc.jwt.pub-key-path",
+      "type": "java.lang.String",
+      "sourceType": "com.czxy.config.JwtProperties"
+    },
+    {
+      "name": "sc.jwt.public-key",
+      "type": "java.security.PublicKey",
+      "sourceType": "com.czxy.config.JwtProperties"
+    },
+    {
+      "name": "sc.jwt.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.czxy.config.JwtProperties"
+    }
+  ],
+  "hints": []
+}
